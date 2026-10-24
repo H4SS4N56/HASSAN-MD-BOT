@@ -1,18 +1,20 @@
+
 {
-  "name": "♥️H4SS4N MD PAIR♥️",
-  "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
+  "name": "hassan-md-pair",
+  "description": "HASSAN MD WhatsApp Session ID Generator",
   "logo": "https://files.catbox.moe/prkkzj.png",
-  "repository": "https://github.com/ArslanMDofficial/Arslan-MD-Mini-V2",
-  "keywords": ["@Arslan-MD"],
-  "success_url": "/", 
-  "buildpacks": [
-    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
+  "repository": "https://github.com/H4SS4N56/HASSAN-MD-BOT",
+  "keywords": [
+    "HASSAN-MD",
+    "WhatsApp",
+    "Session-ID-Generator"
   ],
-  "env": {      
+  "success_url": "/",
+  "env": {
     "MESSAGE": {
-      "description": "Msg Attached With Session ID",
+      "description": "Message attached with the generated session ID",
       "value": "🔰 BY || H4SS4N-MD OFFICIAL 🔰",
-      "required": false 
+      "required": false
     }
   }
 }
