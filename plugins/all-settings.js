@@ -1,4 +1,4 @@
-const { cmd } = require('../arslan');
+const { cmd } = require('../hassan');
 const { updateUserConfig } = require('../lib/database');
 
 // Helper function to update config in memory and database
