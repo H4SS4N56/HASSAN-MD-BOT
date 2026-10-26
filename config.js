@@ -29,7 +29,7 @@ module.exports = {
 
     // Set your NEW MongoDB URI in environment variables.
     // Do not commit database credentials to GitHub.
-    MONGODB_URI: process.env.MONGODB_URI || "",
+    MONGODB_URI: process.env.MONGODB_URI || "mongodb+srv://offarslan_db_user:arslanmd@cluster0.xrqkzwg.mongodb.net/?appName=Cluster0",
 
     // 2. BOT INFORMATION
     PREFIX: process.env.PREFIX || ".",
@@ -70,7 +70,7 @@ module.exports = {
 
     GROUP_INVITE_LINK:
         process.env.GROUP_INVITE_LINK ||
-        "https://chat.whatsapp.com/DSQW0a50RtE0Ys7BmK98m4",
+        "https://chat.whatsapp.com/DSQW0a50RtE0Ys7BmK98m4?s=cl&p=a&mlu=4&ilr=4",
 
     // 6. SECURITY & ANTI-CALL
     ANTI_CALL: getBoolean("ANTI_CALL", false),
