@@ -1,4 +1,4 @@
-const { cmd, commands } = require('../arslan');
+const { cmd, commands } = require('../hassan');
 const config = require('../config');
 const os = require('os');
 
@@ -29,7 +29,7 @@ async(conn, mek, m, { from, reply, myquoted }) => {
 
         // 3. Message Final Stylé
         const pingMsg = `
-*👑 ARSLAN-MD UPTIME 👑* ⚡
+*👑 HASSAN-MD UPTIME 👑* ⚡
 
 * UPTIME :❯  ${latency}*
 
@@ -61,14 +61,14 @@ async(conn, mek, m, { from, myquoted }) => {
     // Création d'une vCard (Fiche contact)
     const vcard = 'BEGIN:VCARD\n' +
                   'VERSION:3.0\n' +
-                  'FN:ArslanMD (Owner)\n' +
-                  'ORG:ArslanMD Corp;\n' +
+                  'FN:HassanMD (Owner)\n' +
+                  'ORG:HassanMD Corp;\n' +
                   `TEL;type=CELL;type=VOICE;waid=${ownerNumber}:${ownerNumber}\n` +
                   'END:VCARD';
 
     await conn.sendMessage(from, {
         contacts: {
-            displayName: 'ARSLAN-MD',
+            displayName: 'HASSAN-MD',
             contacts: [{ vcard }]
         }
     }, { quoted: myquoted });
