@@ -1,4 +1,4 @@
-const { cmd, commands } = require('../arslan');
+const { cmd, commands } = require('../hassan');
 const os = require("os");
 const { runtime } = require('../lib/functions');
 const config = require('../config');
@@ -26,13 +26,13 @@ async (conn, mek, m, { from, sender, reply }) => {
         *I AM ALIVE NOW 🤗♥️*
 *┏────〘 INFO 〙───⊷*
 *┃👑 MODE :❯ ${config.MODE || 'private'}*
-*┃👑 USER :❯ ${config.OWNER_NAME || 'ARSLAN-MD'}*
+*┃👑 USER :❯ ${config.OWNER_NAME || 'HASSAN-MD'}*
 *┃👑 PREFIX :❯ ❮ ${config.PREFIX || '.'} ❯*
 *┃👑 VERSION :❯ 1.0.0*
 *┃👑 TOTAL CMNDS :❯ ❮ ${totalCmds} ❯*
 *┃👑 UPTIME :❯ ${uptime()}*
 *┗──────────────⊷*
-*👑 ARSLAN-MD WHATSAPP BOT 👑*`;
+*👑 HASSAN-MD WHATSAPP BOT 👑*`;
 
         await conn.sendMessage(from, { 
             text: status,
