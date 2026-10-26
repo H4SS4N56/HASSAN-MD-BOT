@@ -1,6 +1,6 @@
 const axios = require('axios')
 const yts = require('yt-search')
-const { cmd } = require('../arslan')
+const { cmd } = require('../hassan')
 const { fakevCard } = require('../lib/fakevCard')
 
 cmd({
@@ -31,7 +31,7 @@ const vid = search.videos[0]
 /* 🎨 Preview */
 
 const caption = `
-╔ஜ۩▒█ ᴀʀꜱʟᴀɴ X ᴍᴅ █▒۩ஜ╗
+╔ஜ۩▒█ HASSAN X MD █▒۩ஜ╗
 ┃🎬 VIDEO FOUND
 ┃📌 Title: ${vid.title}
 ┃⏱️ Duration: ${vid.timestamp}
