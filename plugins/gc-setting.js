@@ -1,6 +1,6 @@
 const { sleep } = require('../lib/functions');
 const config = require('../config');
-const { cmd } = require("../arslan");
+const { cmd } = require("../hassan");
 const { fakevCard } = require('../lib/fakevCard');
 
 // Command to list all pending group join requests
