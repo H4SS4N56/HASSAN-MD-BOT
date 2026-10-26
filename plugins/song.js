@@ -1,4 +1,4 @@
-const { cmd } = require("../arslan");
+const { cmd } = require("../hassan");
 const fetch = require("node-fetch");
 const yts = require("yt-search");
 const axios = require("axios");
@@ -59,13 +59,13 @@ fileName: `${meta.title || "song"}.mp3`,
 caption:
 `🎵 *${meta.title || "Unknown Title"}*\n` +
 `🎚️ Quality: ${quality}\n\n` +
-`> © Arslan-MD`,
+`> © HASSAN-MD`,
 contextInfo: {
 externalAdReply: {
 title: meta.title
 ? meta.title.substring(0, 40)
 : "YouTube Song",
-body: "▶︎ •၊၊||၊|။||||။‌‌‌‌‌၊|• ★彡ᴀʀꜱʟᴀɴ-ᴍᴅ-ʙᴇᴀᴛꜱ彡★",
+body: "▶︎ •၊၊||၊|။||||။‌‌‌‌‌၊|• ★彡HASSAN-MD-BEATS彡★",
 thumbnailUrl: video.thumbnail,
 sourceUrl: video.url,
 mediaType: 1,
