@@ -33,7 +33,7 @@ module.exports = {
 
     // 2. BOT INFORMATION
     PREFIX: process.env.PREFIX || ".",
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "+923287647838",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "+14132248179",
 
     BOT_NAME: "H4SS4N MD Mini",
     BOT_FOOTER: "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ H4SS4N-ᴍᴅ",
