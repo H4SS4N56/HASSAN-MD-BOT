@@ -1,4 +1,4 @@
-const { cmd } = require('../arslan');
+const { cmd } = require('../hassan');
 const axios = require('axios');
 const { fakevCard } = require('../lib/fakevCard');
 
@@ -36,8 +36,8 @@ async function react(sock, mek, emoji) {
 // 📦 Stylish info box
 function xBox(data) {
     return `
-‎*╔ஜ۩▒█ *ᴀʀꜱʟᴀɴ X ᴍᴅ* █▒۩ஜ╗*
-*|* *_ᴀʀꜱʟᴀɴ-ᴍᴅ xᴠɪᴅᴇᴏs_* 
+‎*╔ஜ۩▒█ *Hassan X ᴍᴅ* █▒۩ஜ╗*
+*|* *_Hassan-ᴍᴅ xᴠɪᴅᴇᴏs_* 
 *|┉┉┉┉◉◉◉┉┉┉┉┉┉┉━•⟢*
 *|▸ 📌 ᴛɪᴛʟᴇ:* ${data.title}
 *|▸ ⏱ ᴅᴜʀᴀᴛɪᴏɴ:* ${data.duration || "N/A"}
