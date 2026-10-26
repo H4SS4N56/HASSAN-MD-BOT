@@ -1,4 +1,4 @@
-const { cmd, commands } = require('../arslan');
+const { cmd, commands } = require('../hassan');
 const axios = require('axios');
 
 cmd({
@@ -48,7 +48,7 @@ cmd({
     pattern: "pair2",
     alias: ["getpair2", "reqpair", "clonebot2"],
     react: "📉",
-    desc: "Get pairing code for ARSLAN-MD bot",
+    desc: "Get pairing code for HASSAN-MD bot",
     category: "download",
     use: ".pair 92323XXX",
     filename: __filename
